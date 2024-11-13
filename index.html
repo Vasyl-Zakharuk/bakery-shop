@@ -74,12 +74,17 @@
       </section>
       <section class="section" id="chefs-section">
         <div class="container">
-          <h2 class="chefs-title section-title">
+          <h2 class="chefs-title section-title centered">
             Наші найкращі <span class="accent">шеф-кухарі</span>
           </h2>
           <ul>
             <li>
               <article>
+                <img
+                  class="chef-photo"
+                  src="./images/nastya-chef.jpg"
+                  alt="Foto Nastya chef"
+                />
                 <h3 class="chef-title">Настя</h3>
                 <p>Привіт, я Настя!</p>
                 <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
@@ -88,6 +93,11 @@
             </li>
             <li>
               <article>
+                <img
+                  class="chef-photo"
+                  src="./images/vlad-chef.jpg"
+                  alt="Foto Vlad chef"
+                />
                 <h3 class="chef-title">Влад</h3>
                 <p>Привіт, я Влад!</p>
                 <p>
@@ -102,7 +112,16 @@
       </section>
       <section class="section" id="format-section">
         <div class="container">
-          <h2 class="formats-title section-title">Формати</h2>
+          <h2 class="formats-title section-title centered">Формати</h2>
+          <button class="carousel-button" type="button">
+            <svg class="carousel-button" width="16" height="16">
+              <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32" id="arrow">
+                <path d="M0.005 16l31.517-15.759 2.044 4.089-18.768 9.384h28.63v4.571h-28.63l18.768 9.384-2.044 4.089-31.517-15.759z"></path>
+              </symbol>
+              <use href="#arrow"></use>
+            </svg>
+            <!-- <img src="./images/arrow.svg" alt="" /> -->
+          </button>
           <ul class="formats-list">
             <li class="formats-item">
               <article class="format-card">
@@ -141,6 +160,12 @@
               </article>
             </li>
           </ul>
+          <button class="carousel-button" type="button">
+            <svg width="16" height="16">
+              <use xlink:href="./images/sprite.svg#arrow"></use>
+            </svg>
+            <!-- <img src="./images/arrow.svg" alt="" /> -->
+          </button>
         </div>
       </section>
       <section class="section" id="contact-section">
@@ -160,7 +185,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <a href="#">
           <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
@@ -196,12 +221,18 @@
             </li>
             <li>
               <a href="#">
-                <!-- facebook icon -->
-              </a>
+                <img src="./images/facebook.svg" alt="">
+                <!-- <svg class="address-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a> -->
             </li>
             <li>
               <a href="#">
-                <!-- instagram icon -->
+                <img src="./images/instagram.svg" alt="">
+                <!-- <svg class="address-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg> -->
               </a>
             </li>
           </ul>
