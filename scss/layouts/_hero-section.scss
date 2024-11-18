@@ -1,0 +1,21 @@
+.hero-section {
+  padding: 272px 0;
+  background-image: linear-gradient(
+      111.17deg,
+      #121211c7 2.45%,
+      #12121199 59.16%,
+      #12121100 91.22%
+    ),
+    url('../images/hero-section-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  &__title {
+    margin-bottom: 0;
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 128px;
+    font-weight: 900;
+  }
+}
